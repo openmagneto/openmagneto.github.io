@@ -6,12 +6,14 @@ layout: default
 {::options parse_block_html="true" /}
 
 <div class="jumbotron">
-<h1>OpenMagneto.org</h1>
+<h1 class="hidden-xs">OpenMagneto.org</h1>
+<h1 class="visible-xs">OpenMagneto</h1>
 
 <p class="lead">Coming soon: a tools and community resource for users of the MACS constructs from the
 Southwest Magnetogenetic Hub.</p>
 
-<p><a class="btn btn-lg btn-success" href="/signup/" role="button">Sign up for more information</a></p>
+<p><a class="btn btn-lg btn-success" style="white-space: normal !important; word-wrap: break-word;" 
+      href="/signup/" role="button">Sign up for more information</a></p>
 </div>
 
 <div class="row marketing">
